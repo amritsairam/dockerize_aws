@@ -9,10 +9,6 @@ from django.contrib.auth import authenticate, login as auth_login, logout
 from main import rag
 from .forms import DocumentQueryForm
 
-# def index(request):
-#     if request.user.is_anonymous:
-#         return redirect('/login')
-#     return render(request, 'index.html')
 
 def index(request):
     if request.user.is_anonymous:
