@@ -1,4 +1,4 @@
-AI Software Engineer Coding Assignment
+
 Project Overview
 This project is based on an open-source Django application. It includes the addition of a user authentication system and a Document Query System that allows users to upload PDFs and query them. The application has been containerized using Docker and deployed to AWS Lambda.
 
